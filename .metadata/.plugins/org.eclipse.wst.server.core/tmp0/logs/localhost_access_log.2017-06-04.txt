@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1 - - [04/Jun/2017:01:41:39 +0700] "GET /jsptutorialspoint/main.jsp HTTP/1.1" 500 2893
+0:0:0:0:0:0:0:1 - - [04/Jun/2017:01:59:26 +0700] "GET /jsptutorialspoint/main.jsp HTTP/1.1" 200 309
+0:0:0:0:0:0:0:1 - - [04/Jun/2017:02:00:30 +0700] "GET /jsptutorialspoint/main.jsp HTTP/1.1" 200 294
+0:0:0:0:0:0:0:1 - - [04/Jun/2017:02:02:57 +0700] "GET /jsptutorialspoint/main.jsp HTTP/1.1" 200 255
+0:0:0:0:0:0:0:1 - - [04/Jun/2017:02:29:06 +0700] "GET /jsptutorialspoint/main.jsp HTTP/1.1" 200 1218

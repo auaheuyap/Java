@@ -1,0 +1,9 @@
+<html xmlns = "http://www.w3c.org/1999/xhtml" xmlns:jsp = "http://java.sun.com/JSP/Page">
+   <head><title>Generate XML Element</title></head>
+   
+   <body>
+      <xmlElement xmlElementAttr = "Value for the attribute">
+         Body for XML element
+      </xmlElement>
+   </body>
+</html>

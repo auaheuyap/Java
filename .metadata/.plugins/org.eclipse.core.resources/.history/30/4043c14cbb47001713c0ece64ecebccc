@@ -1,0 +1,45 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+   <head>
+      <title>Reading Cookies</title>
+   </head>
+   
+   <body>
+      <center>
+         <h1>Reading Cookies</h1>
+      </center>
+      <%
+      Cookie firstName = new Cookie("first_name", request.getParameter("first_name"));
+      Cookie lastName = new Cookie("last_name", request.getParameter("last_name"));
+      
+      // Set expiry date after 24 Hrs for both the cookies.
+      firstName.setMaxAge(0); 
+      lastName.setMaxAge(0); 
+      
+      // Add both the cookies in the response header.
+      response.addCookie( firstName );
+      response.addCookie( lastName );
+      
+         Cookie cookie = null;
+         Cookie[] cookies = null;
+         
+         // Get an array of Cookies associated with the this domain
+         cookies = request.getCookies();
+         
+         if( cookies != null ) {
+            out.println("<h2> Found Cookies Name and Value</h2>");
+            
+            for (int i = 0; i < cookies.length; i++) {
+               cookie = cookies[i];
+               out.print("Name : " + cookie.getName( ) + ",  ");
+               out.print("Value: " + cookie.getValue( )+" <br/>");
+            }
+         } else {
+            out.println("<h2>No cookies founds</h2>");
+         }
+      %>
+   </body>
+   
+</html>

@@ -1,0 +1,12 @@
+127.0.0.1 - - [10/Jun/2017:15:53:25 +0700] "GET / HTTP/1.1" 404 1078
+0:0:0:0:0:0:0:1 - - [10/Jun/2017:15:53:28 +0700] "GET /jspdemo/cookies-homepage.jsp HTTP/1.1" 200 584
+0:0:0:0:0:0:0:1 - - [10/Jun/2017:15:54:12 +0700] "GET /jspdemo/cookies-personalize-response.jsp?favoriteLanguage=Ruby HTTP/1.1" 200 206
+0:0:0:0:0:0:0:1 - - [10/Jun/2017:15:54:14 +0700] "GET /jspdemo/cookies-homepage.jsp HTTP/1.1" 200 584
+0:0:0:0:0:0:0:1 - - [10/Jun/2017:15:55:07 +0700] "GET /jspdemo/cookies-personalize-response.jsp?favoriteLanguage=Java HTTP/1.1" 200 206
+0:0:0:0:0:0:0:1 - - [10/Jun/2017:15:55:09 +0700] "GET /jspdemo/cookies-homepage.jsp HTTP/1.1" 200 584
+0:0:0:0:0:0:0:1 - - [10/Jun/2017:17:33:47 +0700] "GET /jspdemo/fun-test.jsp HTTP/1.1" 200 67
+0:0:0:0:0:0:0:1 - - [10/Jun/2017:17:34:26 +0700] "GET /jspdemo/scriptlet-test.jsp HTTP/1.1" 200 198
+0:0:0:0:0:0:0:1 - - [10/Jun/2017:17:35:20 +0700] "GET /jspdemo/student-checkbox-form.html HTTP/1.1" 200 601
+0:0:0:0:0:0:0:1 - - [10/Jun/2017:17:35:29 +0700] "GET /jspdemo/student-checkbox-response.jsp?firstName=mul&lastName=jah&favoriteLanguage=Java HTTP/1.1" 200 265
+0:0:0:0:0:0:0:1 - - [10/Jun/2017:17:36:37 +0700] "GET /jspdemo/student-checkbox-response.jsp HTTP/1.1" 500 2804
+0:0:0:0:0:0:0:1 - - [10/Jun/2017:17:36:59 +0700] "GET /jspdemo/student-checkbox-response.jsp?firstName=mu%3B&lastName=jah&favoriteLanguage=C%23&favoriteLanguage=PHP&favoriteLanguage=Ruby HTTP/1.1" 200 292

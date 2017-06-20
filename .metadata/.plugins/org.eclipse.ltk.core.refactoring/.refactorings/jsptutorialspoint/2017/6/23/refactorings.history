@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;jsptutorialspoint/WebContent/FileUpload.jsp&apos; to &apos;UploadFile.jsp&apos;" description="Rename resource &apos;FileUpload.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/FileUpload.jsp" name="UploadFile.jsp" stamp="1496776602801" updateReferences="true"/>
+</session>
